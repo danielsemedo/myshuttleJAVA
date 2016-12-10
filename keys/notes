@@ -1,0 +1,11 @@
+az role assignment create --scope /subscriptions/9900e1ae-3efb-4f37-966a-29c7cccb695e/resourcegroups/myshuttle-acs/providers/Microsoft.ContainerRegistry/registries/myshuttleregistry --role Owner --assignee <app-id>
+
+az ad sp create-for-rbac --scopes /subscriptions/9900e1ae-3efb-4f37-966a-29c7cccb695e/resourcegroups/myshuttle-acs/providers/Microsoft.ContainerRegistry/registries/myshuttleregistry --role Owner --password <password>
+
+
+{
+  "appId": "92bb2ee6-af4c-4eb5-82ae-b72ccea6ed03",
+  "name": "http://azure-cli-2016-11-11-00-24-22",
+  "password": "GameNight!",
+  "tenant": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+}
