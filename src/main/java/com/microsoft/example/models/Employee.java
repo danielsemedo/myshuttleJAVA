@@ -23,6 +23,9 @@ public class Employee
 	
 	public String getPassword() { return password; }
 	public void setPassword(String value) { password = value; }
+	
+	String nome;
+	nome = "daniel";
   
  
   public int getTotalFees(List<Fare> fares) {
